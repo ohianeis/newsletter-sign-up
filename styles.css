@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+  width: 100%;
+}
+.container .container-header {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .container-header img {
+  width: 100vw;
+}
+.container .container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+}
+.container .container-form input {
+  display: inline;
+}
+.container .container-form #email {
+  height: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 20px;
+}
+.container .container-text {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  border: 1px solid black;
+}
+.lista-text {
+  display: inline;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

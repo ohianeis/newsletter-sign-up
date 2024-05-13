@@ -1,0 +1,95 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+//variables
+$font: "Roboto", sans-serif;
+//colors
+$primary--color:hsl(4,100%,67%);
+$neutral--dark:hsl(235,18%,26%);
+$neutral--charcoal:hsl(235,18%,26%);
+$neutral--grey:hsl(231,7%,60%);
+$neutral-white:hsl(0,0%,100%);
+//font-size
+$font-size:16px;
+$font-weigth-primary:400;
+$font-weigth-bold:700;
+
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+   width: 100%;
+   .container-header{
+    border: 1px solid black;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100vw;
+    }
+
+   }
+   .container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+
+
+    
+    input{
+        display: inline;
+    }
+    #email{
+        height: 40px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin-bottom: 20px;
+
+}
+   }
+
+.container-text{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+   
+} 
+  ul{
+    list-style: none;
+    width: 100%;
+    border: 1px solid black;
+    
+
+    
+
+    li{
+    
+
+
+    }
+
+
+   }
+   .lista-text{
+    display: inline;
+    padding-left: 20px;
+   
+
+
+
+   }
